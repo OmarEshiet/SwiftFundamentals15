@@ -14,7 +14,7 @@ friends = 2
 
 //:  Does the above code compile? Why not? Print your explanation to the console using the `print` function. Go back and delete your line of code that updates the `friends` constant to a lower number so that the playground will compile properly.
 
-print("The output would still be the sane unless I were to print the constant again after changing it.")
+print("In swift programming a constant cannot be changed once assigned")
 
 /*:
 page 1 of 10  |  [Next: App Exercise - Step Goal](@next)
