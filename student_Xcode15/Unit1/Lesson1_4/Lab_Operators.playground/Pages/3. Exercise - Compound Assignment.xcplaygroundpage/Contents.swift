@@ -5,6 +5,14 @@
  */
 
 
+var firsNum = 10
+print(firsNum)
+firsNum = firsNum + 5
+print(firsNum)
+firsNum = firsNum * 2
+print(firsNum)
+
+
 /*:
  Create a variable called `pennyBank` that begins at 0. You will use this to keep track of money you earn and spend. For each point below, use the right compound assignment operator to update the balance in your penny bank.
  
@@ -17,7 +25,18 @@
  Print the balance of your penny bank after each step.
  */
 
-
+var pennyBank = 0
+print(pennyBank)
+pennyBank = pennyBank + 10 // add 10
+print(pennyBank)
+pennyBank = pennyBank + 20 // add 20
+print(pennyBank)
+pennyBank = pennyBank / 2 // spend half
+print(pennyBank)
+pennyBank = pennyBank * 3 // triple bank
+print(pennyBank)
+pennyBank = pennyBank - 3 // spend 3
+print(pennyBank)
 /*:
 [Previous](@previous)  |  page 3 of 8  |  [Next: App Exercise - Counting](@next)
  */
