@@ -9,6 +9,10 @@
  */
 
 
+var steps : Double = 5001
+let goal : Double = 10_000
+let percentOfGoal : Double = ((steps / goal) * 100)
+print(percentOfGoal,"%")
 /*:
  _Copyright © 2023 Apple Inc._
 

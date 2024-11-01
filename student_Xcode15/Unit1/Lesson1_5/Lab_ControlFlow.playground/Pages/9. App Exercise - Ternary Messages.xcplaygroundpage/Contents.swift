@@ -8,11 +8,23 @@
 let stepGoal = 10000
 let steps = 3948
 
-if steps < stepGoal / 2 {
+/*if steps < stepGoal / 2 {
     print("Almost halfway!")
 } else {
     print("Over halfway!")
 }
+*/
+
+let sword = "Almost halfway!"
+let words = "Over halfway!!"
+
+
+var distanced: String
+
+distanced = steps < (stepGoal / 2) ? sword: words
+
+print(distanced)
+
 /*:
  _Copyright © 2023 Apple Inc._
 

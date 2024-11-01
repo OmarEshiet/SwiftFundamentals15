@@ -3,7 +3,15 @@
  
  Refactor the code below so that `largest` is declared and assigned to in one line using the ternary operator.
  */
-let number1 = 14
+
+
+let number1 = 44
+let number2 = 25
+var largest: Int
+
+largest = number1 > number2 ? number1 : number2
+
+print(largest)/*let number1 = 14
 let number2 = 25
 
 var largest: Int
@@ -12,6 +20,7 @@ if number1 > number2 {
 } else {
     largest = number2
 }
+*/
 /*:
 [Previous](@previous)  |  page 8 of 9  |  [Next: App Exercise - Ternary Messages](@next)
  */
