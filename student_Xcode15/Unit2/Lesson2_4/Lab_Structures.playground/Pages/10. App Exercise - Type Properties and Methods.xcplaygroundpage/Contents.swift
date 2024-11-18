@@ -13,6 +13,12 @@ struct RunningWorkout {
     var distance: Double
     var time: Double
     var elevation: Double
+    
+    static func mileTimeFor(distance: Double, time: Double) {
+        let miles = distance / 1600.00
+        return time / miles
+    }
+    let
 }
 
 
