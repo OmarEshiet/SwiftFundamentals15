@@ -6,6 +6,12 @@ import Foundation
  */
 var roll = 0
 
+while roll != 1 {
+    roll = Int.random(in: 1...6)
+    print("You rolled \(roll)")
+}
+
+print("You rolled 1")
 
 /*:
 [Previous](@previous)  |  page 3 of 6  |  [Next: App Exercise - Running Cadence](@next)
